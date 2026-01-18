@@ -3,6 +3,8 @@
 This repository contains the code for P20 lite to handheld console convertion.
 The goal of the project is to turn an old smartphone into a PSX emulation device. The code provided is used to manage a controller inspired by the original PSX controller (without analog sticks and triggers).
 
+Detailed project page: https://www.controforme.com/project/gaming-handheld-from-old-smartphone/
+
 The code runs on a Pro Micro or Arduino Leonardo board connected to a dpad (4 buttons), 4 face buttons, 4 back buttons, and 2 additional buttons for select and start.
 
 IMPORTANT NOTE: The code has been "manually" optimized to run on an older android phone (Huawei P20 lite) which recognize all the buttons without additional configuration needed (with the exception of start and select not being recognized in some apps like ES-DE). If used with more modern smartphones, the buttons are assigned differently, thus the code needs to be changed.
